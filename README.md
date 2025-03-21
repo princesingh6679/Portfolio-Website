@@ -13,12 +13,13 @@ Welcome to my personal portfolio website! 🚀 This project showcases my skills,
 HTML5 - Structure & Content
 CSS3 - Styling & Animations
 JavaScript - Interactivity & Dynamic Features
+
 🚀 Live Demo
 🔗 View Portfolio
 
+🚀 How to Run This Portfolio Website.
 
-🚀 How to Run This Portfolio Website
-🔹 Open the Project
+🔹 Open the Project.
   Simply open the index.html file in your browser:
 
   Locate the project folder on your computer.
