@@ -1,5 +1,20 @@
-# Portfolio-Website
-I Developed this  Responsive Portfolio Website Using HTML , CSS and JavaScript
+
+🌟 My Portfolio
+Welcome to my personal portfolio website! 🚀 This project showcases my skills, projects, and experience in web development. Built with HTML, CSS, and JavaScript, this portfolio is designed to be responsive, interactive, and visually appealing.
+
+🔥 Features
+✅ Modern & Responsive Design
+✅ Interactive Animations & Effects
+✅ Projects Showcase with Live Demos
+✅ Contact Form for Easy Communication
+✅ Smooth Scrolling & User-Friendly Navigation
+
+🎯 Technologies Used
+HTML5 - Structure & Content
+CSS3 - Styling & Animations
+JavaScript - Interactivity & Dynamic Features
+🚀 Live Demo
+🔗 View Portfolio
 
 
 🚀 How to Run This Portfolio Website
@@ -31,8 +46,8 @@ I Developed this  Responsive Portfolio Website Using HTML , CSS and JavaScript
 
 # Responsive In Mobile
 
-![Screenshot 2025-03-21 130013](https://github.com/user-attachments/assets/4c922771-2995-4b35-bbe5-bdb9dd920bf6)
-![Screenshot 2025-03-21 130038](https://github.com/user-attachments/assets/8ec7a9e5-3382-4657-aed5-3f1554bba384)
+![Screenshot 2025-03-21 130013](https://github.com/user-attachments/assets/4c922771-2995-4b35-bbe5-bdb9dd920bf6) ![Screenshot 2025-03-21 130038](https://github.com/user-attachments/assets/8ec7a9e5-3382-4657-aed5-3f1554bba384)
+
 
 
 
