@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!--  fonts Awesome  -->
+    <script src="https://kit.fontawesome.com/3570718f32.js" crossorigin="anonymous"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Cormorant+Upright:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="./img/814bbf6e-c569-4bde-b3c5-4a9035b65fda.png"loading="lazy" class="logo" alt="">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Work</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark"  onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars"  onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>MERN Full Stack Developer</p>
+            <h1>Hi, I'm <span>Prince </span> Singh</h1>
+        </div>
+    </div>
+   </div>
+
+    <!--About ---------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+              <div class="about-col-1">
+                <img src="./img/background.png"loading="lazy" alt="">
+              </div>  
+              <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Thank you for giving me the opportunity to introduce myself.
+
+                    My name is Prince Kumar Singh. I am currently living in Pune, but I am originally from Bihar.
+                    
+                    I have completed my Bachelor's degree in Computer Applications (BCA) from MIT Arts, Commerce, and Science College, Pune.
+                    
+                    I have a strong foundation in Web Development, along with good communication skills and problem-solving abilities.
+                    
+                    My short-term goal is to secure a job in a reputed company, while my long-term goal is to achieve a leadership position like yours.
+                    
+                    As part of my academic curriculum, I successfully completed a project titled "College Event Management System."
+                    
+                    Additionally, I have gained practical experience through an internship in Web Development.
+                    
+                    Apart from academics, I enjoy playing cricket in my free time.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Non-Technical skills')">Non-Technical Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python</span></li>
+                            <li><span>Html 5</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>JavaScript</span></li>
+                            <li><span>React.js</span></li>
+                            <li><span>Bootstrap 5</span></li>
+                            <li><span>Wordpress</span></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-contents" id="Non-Technical skills">
+                        <ul>
+                            <li><span>Problem Solving</span></li>
+                            <li><span>Team Work</span></li>
+                            <li><span>Communication</span></li>
+                            <li><span>Time Management</span></li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher</span></li>
+                            
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 / 02-2025</span><br>front-end Developer Course</li>
+                            <li><span>2024</span><br>BCA from MIT Pune</li>
+                            <li><span>2021</span><br>12th</li>
+                            <li><span>2018</span><br>10th</li>
+                            
+                        </ul>
+
+                    </div>
+              </div>  
+
+            </div>
+
+        </div>
+    </div>
+    <!-- -----------Work------------- -->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">Work</h1>
+        <div class="services-list">
+           <div>
+            <img src="./img/techno.jpg"loading="lazy" alt="">
+            <h2>Technosignia Website</h2>
+            <p>Working On Project,This Is Personal Project</p>
+            <a href="#">Learn more</a>
+           </div>
+
+           <div>
+            <img src="./img/webdeveloper-removebg-preview.png"loading="lazy" alt="">
+            <h2>Web Design</h2>
+            <p>Launching Soon</p>
+            <a href="#">Learn more</a>
+           </div>
+
+           <div>
+            <img src="./img/ui-removebg-preview.png" loading="lazy" alt="">
+            <h2>UI/UX Design</h2>
+            <p>Learning</p>
+            <a href="#">Learn more</a>
+           </div>
+
+        </div>
+        
+
+    </div>
+   </div>
+
+   <!-- ----------------------------Project------------ -->
+    <div id="Project">
+        <div class="container">
+            <h1 class="sub-title">Project</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./img/netflixclone.jpg"loading="lazy" alt="">
+        
+                    <div class="layer">
+                        <h3>Netflix Clone </h3>
+                        <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+                            You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. 
+                            There's always something new to discover, and new TV shows and movies are added every week!</p>
+                        <a href="https://princesingh6679.github.io/Netflix-Clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/eventmanagement.png"loading="lazy" alt="">
+                    <div class="layer">
+                        <h3>Event Management System</h3>
+                        <p>A web application implemented using Agile methodology which enable students to see events available and can register to participate.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/eyeware.png" loading="lazy" alt="">
+                    <div class="layer">
+                        <h3>Eyewear e-commerce site</h3>
+                        <p>The purpose of the the project is to create a e-commerce website for everyone interested in shopping online.
+                             Layout is simple and clear. Project is accesible through all modern browsers on both desktop and mobile devices.
+                             For build the front-end functionality CSS, HTML and Bootstrap.</p>
+                        <a href="https://princesingh6679.github.io/Responsive-E-Commerce-site/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ------------------------Contact---------------- -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>rudra6679@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i>6205215239</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/princesingh6679" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/prince-singh-597b76263/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/singh_rudra.24?igsh=MThscTEyYmxxNGFmYQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="./img/PrinceSinghcv.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                  <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                  </form>
+                  <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+           <p>Copyright @Prince Singh<i class="fa-solid fa-heart"></i></p> 
+        </div>
+     </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+        
+    }
+    const msg = document.getElementById("msg")
+        .then(Response => {
+          msg.innerHTML = "Message sent Successfully"  
+        })
+
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+   
+</body>
+</html>
