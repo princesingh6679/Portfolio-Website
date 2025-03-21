@@ -46,7 +46,7 @@ JavaScript - Interactivity & Dynamic Features
 
 # Responsive In Mobile
 
-![Screenshot 2025-03-21 130013](https://github.com/user-attachments/assets/4c922771-2995-4b35-bbe5-bdb9dd920bf6) ![Screenshot 2025-03-21 130038](https://github.com/user-attachments/assets/8ec7a9e5-3382-4657-aed5-3f1554bba384)
+![Screenshot 2025-03-21 130013](https://github.com/user-attachments/assets/4c922771-2995-4b35-bbe5-bdb9dd920bf6),![Screenshot 2025-03-21 130038](https://github.com/user-attachments/assets/8ec7a9e5-3382-4657-aed5-3f1554bba384)
 
 
 
