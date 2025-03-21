@@ -1,15 +1,17 @@
 
-🌟 My Portfolio
+🌟 My Portfolio:
 Welcome to my personal portfolio website! 🚀 This project showcases my skills, projects, and experience in web development. Built with HTML, CSS, and JavaScript, this portfolio is designed to be responsive, interactive, and visually appealing.
 
-🔥 Features
+🔥 Features:
+
 ✅ Modern & Responsive Design
 ✅ Interactive Animations & Effects
 ✅ Projects Showcase with Live Demos
 ✅ Contact Form for Easy Communication
 ✅ Smooth Scrolling & User-Friendly Navigation
 
-🎯 Technologies Used
+🎯 Technologies Used:
+
 HTML5 - Structure & Content
 CSS3 - Styling & Animations
 JavaScript - Interactivity & Dynamic Features
@@ -19,7 +21,7 @@ https://princesingh6679.github.io/Portfolio-Website/
 
 🚀 How to Run This Portfolio Website.
 
-🔹 Open the Project.
+🔹 Open the Project:
   Simply open the index.html file in your browser:
 
   Locate the project folder on your computer.
@@ -33,7 +35,7 @@ https://princesingh6679.github.io/Portfolio-Website/
   Open the project folder in VS Code.
   Right-click index.html and select "Open with Live Server".
 
-🔹 Project Structure
+🔹 Project Structure:
 
 /project-folder  
 │── index.html  # Main HTML file  
